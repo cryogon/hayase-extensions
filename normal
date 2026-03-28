@@ -1,0 +1,97 @@
+[
+  {
+    "name": "NekoBT",
+    "id": "nekobt",
+    "version": "0.0.3",
+    "type": "torrent",
+    "accuracy": "high",
+    "ratio": 0,
+    "media": "sub",
+    "languages": [
+      "US"
+    ],
+    "url": "aHR0cHM6Ly9uZWtvYnQudG8vYXBpL3YxLw==",
+    "icon": "https://nekobt.to/cdn/pfp/null/64",
+    "update": "https://exten.pages.dev/index.json",
+    "code": "https://exten.pages.dev/nekobt.js"
+  },
+  {
+    "name": "Seadex",
+    "id": "seadex",
+    "version": "0.0.5",
+    "type": "torrent",
+    "accuracy": "high",
+    "ratio": 0,
+    "media": "sub",
+    "languages": [
+      "US"
+    ],
+    "icon": "https://releases.moe/favicon.png",
+    "update": "https://exten.pages.dev/index.json",
+    "code": "https://exten.pages.dev/seadex.js"
+  },
+  {
+    "name": "AnimeTosho",
+    "id": "animetosho",
+    "version": "0.1.2",
+    "type": "torrent",
+    "accuracy": "high",
+    "ratio": 0,
+    "media": "sub",
+    "languages": [
+      "US"
+    ],
+    "icon": "https://animetosho.org/inc/favicon.ico",
+    "update": "https://exten.pages.dev/index.json",
+    "code": "https://exten.pages.dev/animetosho.js",
+    "options": {
+      "useTorrent": {
+        "type": "boolean",
+        "description": "Use .torrent files instead of magnet links, this can cause issues with some internet providers if they block some domains",
+        "default": false
+      }
+    }
+  },
+  {
+    "name": "AnimeTosho",
+    "id": "animetosho-nzb",
+    "version": "0.0.6",
+    "type": "nzb",
+    "accuracy": "high",
+    "ratio": 0,
+    "media": "sub",
+    "languages": [
+      "US"
+    ],
+    "icon": "https://animetosho.org/inc/favicon.ico",
+    "update": "https://exten.pages.dev/index.json",
+    "code": "https://exten.pages.dev/animetosho-nzb.js",
+    "options": {
+      "domain": {
+        "type": "string",
+        "description": "Provider Domain",
+        "default": "news.example.com"
+      },
+      "port": {
+        "type": "number",
+        "description": "Provider Port",
+        "default": 119
+      },
+      "username": {
+        "type": "string",
+        "description": "Provider Username",
+        "default": "mail@example.com"
+      },
+      "password": {
+        "type": "string",
+        "description": "Provider Password, this is stored unencrypted on your drive",
+        "default": "password"
+      },
+      "poolSize": {
+        "type": "number",
+        "description": "Connection Pool Size",
+        "default": 5
+      }
+    }
+  }
+]
