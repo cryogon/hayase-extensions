@@ -13,7 +13,7 @@
     "nsfw": false,
     "icon": "https://nyaa.si/static/favicon.png",
     "update": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/nyaa.json",
-    "code": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/hayase/nyaa.js"
+    "code": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/nyaa.js"
   },
   {
     "id": "hayase.extension.sukebei",
@@ -29,6 +29,6 @@
     "nsfw": true,
     "icon": "https://sukebei.nyaa.si/static/favicon.png",
     "update": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/nyaa.json",
-    "code": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/hayase/sukebei.js"
+    "code": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/sukebei.js"
   }
 ]
