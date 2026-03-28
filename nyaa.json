@@ -1,0 +1,34 @@
+[
+  {
+    "id": "hayase.extension.nyaa",
+    "name": "Nyaa",
+    "version": "1.0.2",
+    "type": "torrent",
+    "accuracy": "medium",
+    "ratio": 0,
+    "media": "sub",
+    "languages": [
+      "all"
+    ],
+    "nsfw": false,
+    "icon": "https://nyaa.si/static/favicon.png",
+    "update": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/nyaa.json",
+    "code": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/hayase/nyaa.js"
+  },
+  {
+    "id": "hayase.extension.sukebei",
+    "name": "Sukebei",
+    "version": "1.0.2",
+    "type": "torrent",
+    "accuracy": "medium",
+    "ratio": 0,
+    "media": "both",
+    "languages": [
+      "all"
+    ],
+    "nsfw": true,
+    "icon": "https://sukebei.nyaa.si/static/favicon.png",
+    "update": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/nyaa.json",
+    "code": "https://raw.githubusercontent.com/cryogon/hayase-extensions/main/hayase/sukebei.js"
+  }
+]
